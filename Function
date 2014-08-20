@@ -1,0 +1,18 @@
+#include<iostream>
+
+using namespace std;
+
+void myfunction();
+
+int main()
+{
+   myfunction();
+   
+   cout << "\n";
+   system ("PAUSE");
+}
+
+void myfunction()
+{
+   cout << "This is my first function in C++...\nHurray...";
+}
