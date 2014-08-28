@@ -3,10 +3,12 @@
 using namespace std;
 
 void myfunction();
+void myname();
 
 int main()
 {
    myfunction();
+   myname();
    
    cout << "\n";
    system ("PAUSE");
@@ -15,4 +17,8 @@ int main()
 void myfunction()
 {
    cout << "This is my first function in C++...\nHurray...";
+}
+void myname()
+{
+   cout << "\n\nMy Name is Vijay Prasad"; 	
 }
