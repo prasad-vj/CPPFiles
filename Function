@@ -10,7 +10,7 @@ int main()
    myfunction(); //call to the first function
    myname(); //call to the name function
    
-   cout << "\n";
+   cout << "\n\n\n";
    system ("PAUSE");
 }
 
@@ -22,3 +22,4 @@ void myname()
 {
    cout << "\n\nMy Name is Vijay Prasad"; 	
 }
+
